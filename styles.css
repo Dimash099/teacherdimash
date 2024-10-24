@@ -1,0 +1,92 @@
+/* Жалпы дене стилі */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Жаңа шрифт */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f4f8; /* Жұмсақ фон түсі */
+}
+
+/* Басты тақырып стилі */
+header {
+    background: #3f51b5; /* Көк түс */
+    color: white;
+    padding: 15px 0; /* Жоғарғы және төменгі жиегі */
+    text-align: center;
+}
+
+/* Навигация стилі */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Кішкене кеңістік қосу */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Мәтіннің қалыңдығы */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Тінтуірмен үстіне келгенде астын сызу */
+}
+
+/* Негізгі мазмұн стилі */
+main {
+    padding: 20px;
+}
+
+/* Әр бөлімнің стилі */
+section {
+    background: white; /* Ақ фон */
+    padding: 20px;
+    border-radius: 8px; /* Шеттердің дөңгеленуі */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Жеңіл көлеңке */
+    margin: 20px 0;
+}
+
+/* Төменгі бөлік стилі */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #3f51b5; /* Көк түс */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Форма стилі */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Шекара */
+    border-radius: 4px; /* Дөңгеленген шекара */
+}
+
+form button {
+    padding: 10px;
+    background: #4CAF50; /* Жасыл түс */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Дөңгеленген шекара */
+}
+
+form button:hover {
+    background: #45a049; /* Тінтуірмен үстіне келгенде түс өзгеруі */
+}
